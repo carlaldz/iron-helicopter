@@ -1,4 +1,4 @@
-class Obstacle {
+class Obstacles {
   constructor(ctx) {
     this.ctx = ctx
     this.x = this.ctx.canvas.width
@@ -15,7 +15,7 @@ class Obstacle {
       this.y,
       this.w,
       this.h
-    )
+    );
   }
 
   move() {

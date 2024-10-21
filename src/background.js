@@ -23,6 +23,7 @@ class Background {
       this.w, 
       this.h);
   }
+
   move() {
     // TODO: move background
     this.x += this.vx; 
